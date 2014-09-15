@@ -21,7 +21,7 @@
 		4D8D030A19C6657800CA6A27 /* fanSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D030719C6657800CA6A27 /* fanSelect@2x.png */; };
 		4D8D030B19C6657800CA6A27 /* playerSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D030819C6657800CA6A27 /* playerSelect@2x.png */; };
 		4D8D030D19C66BEC00CA6A27 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D030C19C66BEC00CA6A27 /* placeholder@2x.png */; };
-		B2E5E6C1146145C900EADB7A /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E5E6C0146145C900EADB7A /* iCarousel.m */; };
+		4D8D031119C67BA900CA6A27 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8D031019C67BA900CA6A27 /* iCarousel.m */; };
 		B2E5E72D1461544B00EADB7A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E5E72B1461544B00EADB7A /* background.png */; };
 		B2E5E72E1461544B00EADB7A /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E5E72C1461544B00EADB7A /* page.png */; };
 /* End PBXBuildFile section */
@@ -47,8 +47,8 @@
 		4D8D030719C6657800CA6A27 /* fanSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanSelect@2x.png"; sourceTree = SOURCE_ROOT; };
 		4D8D030819C6657800CA6A27 /* playerSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playerSelect@2x.png"; sourceTree = SOURCE_ROOT; };
 		4D8D030C19C66BEC00CA6A27 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = SOURCE_ROOT; };
-		B2E5E6BF146145C900EADB7A /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		B2E5E6C0146145C900EADB7A /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		4D8D030F19C67BA900CA6A27 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		4D8D031019C67BA900CA6A27 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		B2E5E72B1461544B00EADB7A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../Resources/background.png; sourceTree = SOURCE_ROOT; };
 		B2E5E72C1461544B00EADB7A /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page.png; path = ../Resources/page.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 		01308D8313491C3500453707 = {
 			isa = PBXGroup;
 			children = (
-				B2E5E6BE146145C900EADB7A /* iCarousel */,
+				4D8D030E19C67BA900CA6A27 /* iCarousel */,
 				01308D9813491C3500453707 /* iCarouselExample */,
 				01308D9113491C3500453707 /* Frameworks */,
 				01308D8F13491C3500453707 /* Products */,
@@ -127,14 +127,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B2E5E6BE146145C900EADB7A /* iCarousel */ = {
+		4D8D030E19C67BA900CA6A27 /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				B2E5E6BF146145C900EADB7A /* iCarousel.h */,
-				B2E5E6C0146145C900EADB7A /* iCarousel.m */,
+				4D8D030F19C67BA900CA6A27 /* iCarousel.h */,
+				4D8D031019C67BA900CA6A27 /* iCarousel.m */,
 			);
-			name = iCarousel;
-			path = ../../iCarousel;
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 		B2E5E72A1461543E00EADB7A /* Resources */ = {
@@ -217,9 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0148358813A36C2000E687AC /* main.m in Sources */,
+				4D8D031119C67BA900CA6A27 /* iCarousel.m in Sources */,
 				0148359313A36C3700E687AC /* iCarouselExampleViewController.m in Sources */,
 				0148359413A36C3700E687AC /* iCarouselExampleAppDelegate.m in Sources */,
-				B2E5E6C1146145C900EADB7A /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -89,6 +89,25 @@
     self.carousel1 = nil;
 }
 
+- (IBAction)info:(id)sender
+{
+    UIButton *btn = (UIButton*)sender;
+    
+    btn.selected = !btn.selected;
+    
+    if (btn.selected) {
+        [UIView animateWithDuration:.3 animations:^{
+            self.carousel1.alpha = 0.18;
+            self.carousel1.userInteractionEnabled = NO;
+        } completion:nil];
+    } else {
+        [UIView animateWithDuration:.3 animations:^{
+            self.carousel1.alpha = 1.0;
+            self.carousel1.userInteractionEnabled = YES;
+        } completion:nil];
+    }
+}
+
 #pragma mark -
 #pragma mark iCarousel methods
 
